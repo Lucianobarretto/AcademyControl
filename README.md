@@ -1,4 +1,6 @@
-<h1 align="center">Controle de Academia - Projeto Bootcamp Launchbase</h1>
+<h1 align="center">Controle de Academia</h1>
+
+<h2 align="center">Projeto Bootcamp Launchbase (Rocketseat)</h2>
 
 <h2 align="center">Under Construction</h2>
 
