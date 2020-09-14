@@ -20,6 +20,17 @@ routes.get('/instructors/:id/edit', instructors.edit)
 
 routes.post("/instructors", instructors.post)
 
+// HTTP VERBS
+//
+// GET: Receber RESOURCE
+// POST: Criar ou Salvar um Novo RESOURCE com dados enviados
+// PUT: Atualizar RESOURCE
+// DELETE: Deletar (apagar) RESOURCE
+
+routes.put("/instructors", instructors.put)
+
+routes.delete("/instructors", instructors.delete)
+
 routes.get('/members', function(req, res) {
     return res.send("members")
 })
